@@ -7,7 +7,13 @@
     overflow-x: clip;
     background: var(--cardColor);
 }
-
+.ProfileCard>span{
+    font-weight: bold;
+    color: orange;
+    align-self: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
 .ProfileImages{
     position: relative;
     display: flex;
