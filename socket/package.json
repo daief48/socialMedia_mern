@@ -1,7 +1,8 @@
 {
   "scripts": {
     "build":"npm i",
-    "start": "node index.js"
+    "start": "node index.js",
+    "server": "nodemon server.js"
   },
   "dependencies": {
     "nodemon": "^2.0.16",
