@@ -64,8 +64,8 @@ const PostShare = () => {
       <img
         src={
           user.profilePicture
-            ? serverPublic + user.profilePicture
-            : serverPublic + "defaultProfile.png"
+            ? `https://socialmedia-mern-backend.onrender.com/images/` + user.profilePicture
+            : `https://socialmedia-mern-backend.onrender.com/images/` + "defaultProfile.png"
         }
         alt="Profile"
       />

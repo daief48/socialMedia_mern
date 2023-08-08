@@ -21,7 +21,7 @@ const Post = ({ data }) => {
   return (
     <div className="Post">
       <img
-        src={data.image ? process.env.REACT_APP_PUBLIC_FOLDER + data.image : ""}
+        src={data.image ? `https://socialmedia-mern-backend.onrender.com/images/` + data.image : ""}
         alt=""
       />
 

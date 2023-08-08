@@ -14,14 +14,14 @@ const ProfileCard = ({location}) => {
       <div className="ProfileImages">
         <img src={
             user.coverPicture
-              ? serverPublic + user.coverPicture
-              : serverPublic + "defaultCover.jpg"
+              ? `https://socialmedia-mern-backend.onrender.com/images/` + user.coverPicture
+              : `https://socialmedia-mern-backend.onrender.com/images/` + "defaultCover.jpg"
           } alt="CoverImage" />
         <img
           src={
             user.profilePicture
-              ? serverPublic + user.profilePicture
-              : serverPublic + "defaultProfile.png"
+              ? `https://socialmedia-mern-backend.onrender.com/images/` + user.profilePicture
+              : `https://socialmedia-mern-backend.onrender.com/images/` + "defaultProfile.png"
           }
           alt="ProfileImage"
         />

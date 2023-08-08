@@ -21,8 +21,8 @@ const User = ({ person }) => {
         <img
           src={
             person.profilePicture
-              ? serverPublic + person.profilePicture
-              : serverPublic + "defaultProfile.png"
+              ? `https://socialmedia-mern-backend.onrender.com/images/` + person.profilePicture
+              : `https://socialmedia-mern-backend.onrender.com/images/` + "defaultProfile.png"
           }
           alt="profile"
           className="followerImage"
